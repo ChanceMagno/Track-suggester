@@ -8,17 +8,64 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="containter">
-      <div class="jumbotron">
+    <div class="container">
+      <div class="Jumbotron">
         <h1>Compass</h1>
-        <h2>A helpful computer programming language guide</h2>
-        <form class="userName" id="getName">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn">Submit</button>
+        <h2>A helpful computer programming langauge guide</h2>
+        <form>
+          <p></p>
+            <select class="form-control" id="question1">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          <p></p>
+            <select class="form-control" id="question2">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          <p></p>
+            <select class="form-control" id="question3">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+            <p></p>
+              <select class="form-control" id="question4">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+              </select>
+            <p></p>
+              <select class="form-control" id="question5">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+              </select>
+            <button type="submit" class="btn">Submit</button>
         </form>
+        <div class="trackerOutput">
+          <div class="Java">
+            <img src="" alt="">
+          </div>
+          <div class="swift">
+            <img src="" alt="">
+          </div>
+          <div class="php">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+          <span class="sr-only">Error:</span>
+          You Forgot a Question!
+        </div>
       </div>
     </div>
   </body>
