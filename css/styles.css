@@ -1,17 +1,21 @@
 .java{
     display: none;
+    text-align: center;
+    margin-top: 45px;
 }
 
 .swift{
     display: none;
+    text-align: center;
 }
 
 .php{
     display: none;
+    text-align: center;
 }
 
 form {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .alert {
@@ -26,26 +30,39 @@ form {
 
 .leftCompass {
   shape-outside: circle();
-  width: 45px;
+  width: 60px;
   float: left;
   margin-bottom: 45px;
 }
 
 .rightCompass {
   shape-outside: circle();
-  width: 45px;
+  width: 60px;
   float: right;
   margin-bottom: 85px;
+}
+
+.needle {
+  height: 35px;
+
 }
 
 h1 {
   font-family: fantasy;
   margin-left: 55px;
   text-align: center;
+  f
 
 }
 
-h2 {
-  font-family: fantasy;
+.col-lg-8 {
+  background-color: #e3e7e8;
+  margin-top: 55px;
+  
+}
+
+.emblem {
+
+  height: 60px;
   text-align: center;
 }
