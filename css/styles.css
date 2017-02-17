@@ -1,5 +1,13 @@
-.Jumbotron, h1, h2 {
-  background-color: blue;
+.java{
+    display: none;
+}
+
+.swift{
+    display: none;
+}
+
+.php{
+    display: none;
 }
 
 form {
