@@ -12,7 +12,11 @@
       <div class="Jumbotron">
         <h1>Compass</h1>
         <h2>A helpful computer programming language guide</h2>
-        <form>
+        <form id="questions">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
           <p>Which of the following interest you most?</p>
           <select class="form-control" id="question1">
             <option value="0"></option>
@@ -56,13 +60,13 @@
         </form>
         <div class="trackerOutput">
           <div class="java">
-            <p>java<p>
+            <p>Looks like <strong>Java</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Java_">here </a>to learn more!  </p>
           </div>
           <div class="swift">
-            <p>swift</p>
+            <p>Looks like <strong>Swift</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Swift_">here </a>to learn more!  </p>
           </div>
           <div class="php">
-            <p>php</p>
+          <p>Looks like <strong>Php</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/PHP">here </a>to learn more!  </p>
           </div>
         </div>
         <div class="alert alert-danger" role="alert">
