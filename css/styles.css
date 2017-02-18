@@ -58,11 +58,15 @@ h1 {
 .col-lg-8 {
   background-color: #e3e7e8;
   margin-top: 55px;
-  
+
 }
 
 .emblem {
 
   height: 60px;
+  text-align: center;
+}
+
+#submit {
   text-align: center;
 }
