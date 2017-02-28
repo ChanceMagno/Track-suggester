@@ -8,90 +8,89 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container container-fluid">
-      <div class="Jumbotron">
-        <div class="well">
-        <img class="leftCompass" src="img/compass.jpg" alt="picture of a compass">
-        <img class="rightCompass" src="img/compass.jpg" alt="picture of a compass">
-        <h1>Compass</h1>
+    <div class="container">
+      <div class="row well">
+        <div class="Jumbotron">
+          <img class="leftCompass" src="img/compass.jpg" alt="picture of a compass">
+          <img class="rightCompass" src="img/compass.jpg" alt="picture of a compass">
+          <h1>Compass</h1>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-2">
         </div>
-          <div class="col-lg-8">
-            <form id="questions">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input id="name" class="form-control" type="text">
-              </div>
-              <p>Which of the following interest you most?</p>
-              <select class="form-control" id="question1">
-                <option value="0"></option>
-                <option value="1">making android apps</option>
-                <option value="2">making apple product apps</option>
-                <option value="3">web developing</option>
-              </select>
-              <p>Which of the following do you find most appealing from a design aspect?</p>
-              <select class="form-control" id="question2">
-                <option value="0"></option>
-                <option value="1">Eclipse</option>
-                <option value="2">Flappy bird</option>
-                <option value="3">facebook</option>
-              </select>
-              <p>does the demand of the language matter to you?</p>
-              <select class="form-control" id="question3">
-                <option value="0"></option>
-                <option value="1">yes</option>
-                <option value="2">kind of</option>
-                <option value="3">not my largest concern</option>
-              </select>
-              <p>Does the popularity of the langauge matter to you?</p>
-              <select class="form-control" id="question4">
-                <option value="0"></option>
-                <option value="1">Yes</option>
-                <option value="2">not really</option>
-                <option value="3">kind of</option>
-              </select>
-              <p>What is your favorite color?</p>
-              <select class="form-control" id="question5">
-                <option value="0"></option>
-                <option value="1">red</option>
-                <option value="2">blue</option>
-                <option value="3">green</option>
-              </select>
-              <div class="col-lg-2">
-              <div class="row" id="submit">
-                <button type="submit" class="btn">Submit</button>
-              </div>
-            </form>
+        <div class="col-lg-8">
+          <form id="questions">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" class="form-control" type="text">
             </div>
-          </div>
+            <p>Which of the following interest you most?</p>
+            <select class="form-control" id="question1">
+              <option value="0"></option>
+              <option value="1">making android apps</option>
+              <option value="2">making apple product apps</option>
+              <option value="3">web developing</option>
+            </select>
+            <p>Which of the following do you find most appealing from a design aspect?</p>
+            <select class="form-control" id="question2">
+              <option value="0"></option>
+              <option value="1">Eclipse</option>
+              <option value="2">Flappy bird</option>
+              <option value="3">facebook</option>
+            </select>
+            <p>does the demand of the language matter to you?</p>
+            <select class="form-control" id="question3">
+              <option value="0"></option>
+              <option value="1">yes</option>
+              <option value="2">kind of</option>
+              <option value="3">not my largest concern</option>
+            </select>
+            <p>Does the popularity of the langauge matter to you?</p>
+            <select class="form-control" id="question4">
+              <option value="0"></option>
+              <option value="1">Yes</option>
+              <option value="2">not really</option>
+              <option value="3">kind of</option>
+            </select>
+            <p>What is your favorite color?</p>
+            <select class="form-control" id="question5">
+              <option value="0"></option>
+              <option value="1">red</option>
+              <option value="2">blue</option>
+              <option value="3">green</option>
+            </select>
+            <div class="row" id="submit">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
         </div>
-        <div class="row">
-          <div class="col-lg-2">
-          </div>
-          <div class="col-lg-8">
-            <div class="trackerOutput">
-              <div class="java">
-                <img class="emblem" src="img/java.jpg" alt="javaemblem">
-                <p>Looks like <strong>Java</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Java_">here </a>to learn more!</p>
-              </div>
-              <div class="swift">
-                <img class="emblem" src="img/swift.jpg" alt="swiftemblem">
-                <p>Looks like <strong>Swift</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Swift_">here </a>to learn more!</p>
-              </div>
-              <div class="php">
-                <img class="emblem" src="img/php.jpg" alt="phpemblem">
+      </div>
+      <div class="row" id="row2">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-8">
+          <div class="trackerOutput">
+            <div class="java">
+              <img class="emblem" src="img/java.jpg" alt="javaemblem">
+              <p>Looks like <strong>Java</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Java_">here </a>to learn more!</p>
+            </div>
+            <div class="swift">
+              <img class="emblem" src="img/swift.jpg" alt="swiftemblem">
+              <p>Looks like <strong>Swift</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/Swift_">here </a>to learn more!</p>
+            </div>
+            <div class="php">
+              <img class="emblem" src="img/php.jpg" alt="phpemblem">
               <p>Looks like <strong>Php</strong> would be best <span class="userName"></span>, click <a href="https://en.wikipedia.org/wiki/PHP">here </a>to learn more! </p>
-              </div>
-            </div>
-            <div class="alert alert-danger" role="alert">
-              <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
-              <span class="sr-only">Error:</span>
-              You Forgot a Question!
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span>
+            You Forgot a Question!
           </div>
         </div>
+        <div class="col-lg-2">
         </div>
       </div>
     </div>

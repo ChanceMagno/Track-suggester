@@ -7,6 +7,7 @@ $(document).ready(function(){
     var popularity = parseInt($("select#question4").val());
     var color = parseInt($("select#question5").val());
     var totalScore = interest + appealing + demand + popularity + color;
+    $(".alert-danger").hide();
 
     if (interest === 0 || appealing === 0 || demand === 0 || popularity ===0 || color ===0) {
       $(".alert-danger").show();
